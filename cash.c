@@ -23,7 +23,8 @@ cents = cents % 5;
 int pennies = cents;
 
 int total_coins = quarters + dimes + nickels + pennies;
-
+//PRINTS THE TOTAL NUMBER OF COINS AS WELL AS HOW MANY COINS OF EACH DENOMINATION
+    
 printf("The total number of coins is: %d\n", total_coins);
 printf("The total number of quarters is: %d\n", quarters);
 printf("The total number of dimes is: %d\n", dimes);
